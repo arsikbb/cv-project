@@ -1,0 +1,220 @@
+/* reset  */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  all: unset;
+}
+
+/* CV */
+.cv {
+  width: 992px;
+  min-height: 100%;
+  max-height: 1200px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  border: 1px solid rgb(48, 48, 48);
+  background: white;
+  box-sizing: border-box;
+}
+
+/* left-side */
+.cv-left-side {
+  width: 35%;
+  height: 100%;
+}
+
+.cv-side-content {
+  padding: 2rem;
+}
+
+.cv-full-name {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+  color: rgb(27, 27, 212);
+}
+
+.cv-photo {
+  background-color: lightgray;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+
+.cv-contacts-list {
+  padding-left: 1.5rem;
+}
+
+.cv-contacts-list li {
+  margin-bottom: 0.6rem;
+}
+
+.cv-lenguages-list {
+  padding-left: 1.5rem;
+}
+
+.cv-lenguages-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* right-side */
+.cv-right-side {
+  width: 65%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.cv-skills-list {
+  columns: 3;
+  padding-left: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.cv-experience-list li {
+  margin-bottom: 1.1rem;
+}
+
+.cv-ul-top-0 {
+  margin-top: 0px;
+}
+
+.cv-first-right-title {
+  margin-top: 2.3rem;
+  color: rgb(71, 71, 219);
+  font-size: 1.6rem;
+  margin-left: 1.5rem;
+  border-bottom: 1px solid rgb(96, 96, 219);
+  margin-right: 2rem;
+}
+
+/* common */
+.cv-section {
+  margin-bottom: 1.5rem;
+}
+
+.contacts-logo {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 10px;
+}
+
+.cv-par {
+  margin-left: 1.5rem;
+  margin-right: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.contacts-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cv-section-title {
+  color: rgb(71, 71, 219);
+  margin-bottom: 1rem;
+}
+
+.biography {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.4rem;
+  display: inline-block;
+  vertical-align: -0, 125rem;
+}
+
+.cv-cursor-pointer {
+  cursor: pointer;
+}
+
+.cv-decorative-block {
+  height: 40px;
+  width: 100%;
+}
+
+.cv-titles {
+  color: rgb(71, 71, 219);
+  font-size: 1.6rem;
+  margin-left: 1.5rem;
+  margin-bottom: 24px;
+  border-bottom: 1px solid rgb(96, 96, 219);
+  margin-right: 2rem;
+}
+
+.cv-vocation {
+  font-size: 0.8em;
+  margin-top: 15px;
+}
+
+/* colors */
+
+.blue-bg-100 {
+  background-color: rgb(96, 96, 219);
+}
+
+.blue-bg-200 {
+  background-color: rgb(71, 71, 219);
+}
+
+
+/* padding-top: 50px;
+
+hover border-bottom-right-radius: 50%;
+
+background-size: cover;
+
+background-repeat: repeat-x;
+
+background-position: center center;
+
+background-image: linear-gradient(45deg, red, blue);
+
+flex-grow: 1;
+
+flex-basis: 80px;
+
+padding: 30px 60px;
+
+transform-origin: 50% 50% 0;
+
+text-shadow: 2px 4px 10px red;
+
+list-style-type: circle;
+
+margin: 30px 60px;
+
+box-shadow: 2px 4px 10px 4px red;
+
+transition: background 4s,
+transform 1s; */
